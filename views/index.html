@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <h1>Password Generator</h1>
+  <form action="/generate" method="POST">
+    <label>
+      Length:
+      <input type="number" name="length" min="1" max="50" required>
+    </label>
+    <label class="checkbox-container">
+      Include Lowercase:
+      <input type="checkbox" name="lowercase">
+      <span class="checkmark"></span>
+    </label>
+    <label class="checkbox-container">
+      Include Uppercase:
+      <input type="checkbox" name="uppercase">
+      <span class="checkmark"></span>
+    </label>
+    <label class="checkbox-container">
+      Include Symbols:
+      <input type="checkbox" name="symbols">
+      <span class="checkmark"></span>
+    </label>
+    <label class="checkbox-container">
+      Include Numbers:
+      <input type="checkbox" name="numbers">
+      <span class="checkmark"></span>
+    </label>
+    <input type="submit" value="Generate Password">
+  </form>
+  <a href="https://github.com/your-github-repo" target="_blank" class="github-link">
+    <i class="fab fa-github"></i>
+  </a>
+</body>
+</html>
