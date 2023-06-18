@@ -2,25 +2,31 @@
 <html>
 <head>
   <title>Password Generated</title>
+  <link rel="stylesheet" href="style.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
+    * {
+      text-decoration: none;
+      color: white;
       text-align: center;
     }
     p {
-      text-align: center;
       font-weight: bold;
-      font-size: 20px;
-      margin-top: 20px;
+      color: #3f86ff;
+      font-size: 32px;
+      text-align: center;
     }
-  </style>
+    .button {
+      font-size: 15px;
+      font-weight: bolder;
+    }
+    h1 {
+      text-size-adjust: initial;
+    }
+    </style>
 </head>
 <body>
   <h1>Password Generated</h1>
   <p><%= password %></p>
-  <p><a href="/">Generate Another Password</a></p>
+  <a href="/" class="button">Generate Another Password</a>
 </body>
 </html>
