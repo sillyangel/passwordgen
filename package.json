@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"works: works test works success! con\"",
     "start": "node index.js"
+     "test": "echo \"works: works test works success! con\"",
   },
   "keywords": [],
   "author": "",
